@@ -1,0 +1,40 @@
+*{padding: 0%; margin: 0%;}
+body{display: flex; width: 100%;height: 80vh; justify-content: center;align-items: center;}
+.piano{
+          width: 900px;
+          height: 50vh;
+          background:linear-gradient(black, red);
+          border: 30px solid black;
+          position: relative;
+          border-radius: 50px;
+}
+.whitekeys{
+          width: 100%;
+          height: 70%;
+          margin-top:22%;
+          position: relative;
+}
+.whitekeys div{
+          width: 6.9%;
+          height: 100%;
+          border: 1px solid black;
+          background: linear-gradient(grey,white);
+          float: left;
+          }
+.blackkeys {
+          width: 86%;
+          height: 30%;
+          position:absolute;
+          margin-top: 22%;
+          z-index: 1;
+          margin-left: 9%;
+          margin-right: 44px;
+}
+.blackkeys div{
+          width: 8%;
+          height: 100%;
+          border: 1px solid white;
+          background: black;
+          float: left;
+          margin-left:1%;
+}
